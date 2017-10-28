@@ -75,6 +75,7 @@ body {
 
 #featured {
   padding-top: 70px;
+  padding-bottom: 70px;
   margin: auto;
   flex-direction: column;
   align-items: center;
@@ -109,4 +110,40 @@ body {
   height: 200px;
   width: 300px;
   margin: 10px 15px;
+}
+
+/***** LOCATIONS SECTION *****/
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding-top: 70px;
+  width: 1200px;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+#locations-header h2 {
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+#boxes {
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-boxes {
+  margin: 15px 20px;
+  padding-top: 30px;
+  display: static;
+  height: 260px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
