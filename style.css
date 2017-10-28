@@ -48,3 +48,23 @@ body {
   text-decoration: underline;
   color: white;
   padding: 0px 10px;
+}
+
+  /***** MISSION SECTION *****/
+
+#mission {
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+.mission-content {
+  width: 1200px;
+  margin: auto 0;
+  display: block;
+  position: absolute;
+  top: 300px;
+  text-align: center;
+  background-color: black;
+}
