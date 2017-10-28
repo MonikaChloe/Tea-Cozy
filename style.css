@@ -147,3 +147,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/***** CONTACT SECTION *****/
+
+#contact {
+  margin: auto;
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+}
+
+#copyright {
+  margin-left: 20px;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
