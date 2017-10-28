@@ -1,0 +1,50 @@
+/*****GLOBAL STYLE*****/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/*****HEADER*****/
+
+#header {
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.flex-container {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  display: flex;
+}
+
+.logo {
+  height: 50px;
+  align-items: flex-start;
+  align-content: center;
+  padding-left: 10px;
+}
+
+.nav {
+  justify-content: right;
+  align-items: flex-end;
+  padding: 0 10px;
+}
+
+.nav a {
+  text-decoration: underline;
+  color: white;
+  padding: 0px 10px;
